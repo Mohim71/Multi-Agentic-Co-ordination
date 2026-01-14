@@ -84,4 +84,12 @@ The following quantitative metrics are used:
 ---
 
 ## Repository Structure
-
+MULTI_AI/
+├── envs/ # Simulation environment
+├── agents/ # Agent behavior implementations
+├── protocols/ # Coordination protocols
+├── runner/ # Episode execution logic
+├── experiments/ # Phase 1 and Phase 2 experiments
+├── analysis/ # Plotting and result analysis
+├── results/ # Generated figures and CSVs
+└── tests/ # Sanity checks and test scripts
